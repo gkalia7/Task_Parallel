@@ -9,7 +9,7 @@ namespace Task_Parallel
 
         public static void Main(string[] args)
         {
-            TaskCancellation.CompositeCancellationToken();
+            WaitingForTheTimeToPass.WaitHandleCustomTimeMethod();
             
             Console.WriteLine("Main Program Ended");
             Console.ReadKey();
